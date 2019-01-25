@@ -33,7 +33,7 @@ end
 def shortened_tweet_truncator(tweet)
   selected = selective_tweet_shortener(tweet)
   if selected > 140
-    selected[0..140]
+    selected[0...140]
   else 
     selected
   end 
