@@ -36,5 +36,5 @@ def shortened_tweet_truncator(tweet)
     selected[0..140]
   else 
     selected
-  
+  end 
 end 
